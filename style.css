@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+}
+
+.sideBar {
+    width: 43vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1654080222625-f085f8b8867d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+
+
+.logo {
+    height: auto;
+    display: flex;
+    width: 100%;
+    top: 22%;
+    position: relative;
+    align-items: center;
+    font-size: max(min(8.5vh, 5vw), 30px);
+    background-color: rgba(0, 0, 0, .55);
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+.logo img {
+    max-height: 15vh;
+}
+
+
+
+.imgCredit {
+    position: absolute;
+    margin-top: 94.5vh;
+    text-align: center;
+}
+
+.imgCredit a {
+    color: white;
+}
+
+a:visited {
+    color: inherit;
+}
+
+
+
+.content {
+    box-sizing: border-box;
+    width: 57vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+}
+
+.description {
+    font-size: large;
+    padding-right: 25%;
+    padding-left: 4%;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+}
+
+.forms {
+    background-color: white;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: rgb(176, 176, 176) 5px 3.5px 5px 5px;
+
+}
+
+.nameInputs, .contactInfoInputs, .passwordInputs {
+    display: flex;
+    gap: 3rem;
+}
+
+.accountCreation {  
+    padding-left: 4%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    color: rgb(100, 100, 100);
+    font-size: small;
+    font-weight: bold;
+    border: 1px white solid;
+}
+
+
+input::selection {
+    border: 1px #E5E7EB solid;
+}
+
+.accountCreation button {
+    width: 12rem;
+    height: 3.5rem;
+    background-color: rgb(255, 190, 99);
+    border-radius: .5rem;
+    font-size: large;
+    margin-bottom: 1.6rem;
+}
+
+.accountCreation div {
+    font-size: 1.1rem;
+}
+
+.accountCreation a {
+    color:orange;
+}
