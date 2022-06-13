@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    outline: red;
 }
 
 html, body {
@@ -112,12 +113,14 @@ form {
     color: rgb(100, 100, 100);
     font-size: small;
     font-weight: bold;
-    border: 1px white solid;
 }
 
+input {
+    
+}
 
 input::selection {
-    border: 1px #E5E7EB solid;
+    outline:#E5E7EB;
 }
 
 .accountCreation button {
@@ -135,4 +138,10 @@ input::selection {
 
 .accountCreation a {
     color:orange;
+}
+
+.error {
+    outline: none;
+    border: 2px red solid;
+    border-radius: .2rem;
 }
